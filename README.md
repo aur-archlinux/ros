@@ -1,1 +1,187 @@
 # ros
+
+[Installation](http://wiki.ros.org/noetic/Installation/ArchLinux) :
+
+```
+yay -S ros-noetic-ros-base      --builddir /p
+```
+
+- 23 ros-noetic-bondpy               
+- 22 ros-noetic-bond-core            
+- 21 ros-noetic-dynamic-reconfigure  
+- 20 ros-noetic-nodelet-topic-tools  
+- 19 ros-noetic-nodelet-core         
+- 18 ros-noetic-roscpp-core          
+- 17 ros-noetic-rosbag-migration-rule
+- 16 ros-noetic-rosmake              
+- 15 ros-noetic-rosboost-cfg         
+- 14 ros-noetic-rosbash              
+- 13 ros-noetic-mk                   
+- 12 ros-noetic-roscreate            
+- 11 ros-noetic-ros                  
+- 10 ros-noetic-roslisp              
+- 09 ros-noetic-diagnostic-msgs      
+- 08 ros-noetic-trajectory-msgs      
+- 07 ros-noetic-stereo-msgs          
+- 06 ros-noetic-shape-msgs           
+- 05 ros-noetic-visualization-msgs   
+- 04 ros-noetic-common-msgs          
+- 03 ros-noetic-ros-comm             
+- 02 ros-noetic-ros-core             
+- 01 ros-noetic-ros-base             
+
+```
+yay -S ros-noetic-desktop       --builddir /p
+```
+
+- 85 orocos-kdl-python                        
+- 84 ros-noetic-tf2-geometry-msgs             
+- 83 ros-noetic-interactive-markers           
+- 82 ros-noetic-rviz                          
+- 81 ros-noetic-tf2-kdl                       
+- 80 ros-noetic-kdl-parser                    
+- 79 ros-noetic-robot-state-publisher         
+- 78 ros-noetic-urdf-tutorial                 
+- 77 ros-noetic-turtle-tf                     
+- 76 ros-noetic-turtle-tf2                    
+- 75 ros-noetic-geometry-tutorials            
+- 74 ros-noetic-visualization-marker-tutorials 
+- 73 ros-noetic-librviz-tutorial              
+- 72 ros-noetic-rviz-plugin-tutorials         
+- 71 ros-noetic-interactive-marker-tutorials  
+- 70 ros-noetic-rviz-python-tutorial          
+- 69 ros-noetic-visualization-tutorials       
+- 68 tango-icon-theme                         
+- 67 ros-noetic-qt-gui                        
+- 66 ros-noetic-rqt-gui                       
+- 65 ros-noetic-rqt-gui-py                    
+- 64 ros-noetic-qt-dotgraph                   
+- 63 ros-noetic-rqt-graph                     
+- 62 ros-noetic-rqt-tf-tree                   
+- 61 ros-noetic-rqt-runtime-monitor           
+- 60 ros-noetic-rqt-py-common                 
+- 59 ros-noetic-rqt-nav-view                  
+- 58 ros-noetic-gl-dependency                 
+- 57 ros-noetic-rqt-pose-view                 
+- 56 ros-noetic-rqt-robot-steering            
+- 55 ros-noetic-rqt-topic                     
+- 54 ros-noetic-rqt-moveit                    
+- 53 ros-noetic-rqt-logger-level              
+- 52 ros-noetic-rqt-console                   
+- 51 ros-noetic-qt-gui-py-common              
+- 50 ros-noetic-rqt-bag                       
+- 49 ros-noetic-rqt-robot-monitor             
+- 48 ros-noetic-rqt-robot-dashboard           
+- 47 ros-noetic-qt-gui-cpp                    
+- 46 ros-noetic-rqt-gui-cpp                   
+- 45 ros-noetic-rqt-rviz                      
+- 44 ros-noetic-rqt-robot-plugins             
+- 43 ros-noetic-qwt-dependency                
+- 42 ros-noetic-rqt-plot                      
+- 41 ros-noetic-rqt-bag-plugins               
+- 40 ros-noetic-rqt-launch                    
+- 39 ros-noetic-rqt-msg                       
+- 38 ros-noetic-rqt-action                    
+- 37 ros-noetic-rqt-top                       
+- 36 ros-noetic-rqt-service-caller            
+- 35 ros-noetic-rqt-shell                     
+- 34 ros-noetic-webkit-dependency             
+- 33 ros-noetic-rqt-web                       
+- 32 ros-noetic-rqt-publisher                 
+- 31 ros-noetic-rqt-srv                       
+- 30 ros-noetic-rqt-dep                       
+- 29 ros-noetic-cv-bridge                     
+- 28 ros-noetic-rqt-image-view                
+- 27 ros-noetic-rqt-py-console                
+- 26 ros-noetic-rqt-reconfigure               
+- 25 ros-noetic-rqt-common-plugins            
+- 24 ros-noetic-viz                           
+- 23 ros-noetic-filters                       
+- 22 ros-noetic-smach-msgs                    
+- 21 ros-noetic-smach                         
+- 20 ros-noetic-smach-ros                     
+- 19 ros-noetic-executive-smach               
+- 18 ros-noetic-diagnostic-updater            
+- 17 ros-noetic-diagnostic-analysis           
+- 16 ros-noetic-diagnostic-common-diagnostics 
+- 15 ros-noetic-diagnostic-aggregator         
+- 14 ros-noetic-self-test                     
+- 13 ros-noetic-diagnostics                   
+- 12 ros-noetic-urdfdom-py                    
+- 11 ros-noetic-kdl-parser-py                 
+- 10 ros-noetic-kdl-conversions               
+- 09 ros-noetic-tf-conversions                
+- 08 ros-noetic-eigen-conversions             
+- 07 ros-noetic-geometry                      
+- 06 ros-noetic-control-msgs                  
+- 05 ros-noetic-robot                         
+- 04 ros-noetic-roscpp-tutorials              
+- 03 ros-noetic-rospy-tutorials               
+- 02 ros-noetic-ros-tutorials                 
+- 01 ros-noetic-desktop 
+
+```
+yay -S ros-noetic-desktop-full  --builddir /p
+```
+
+- 61 ros-noetic-gazebo-msgs                   
+- 60 libccd                                   
+- 59 libxml                                   
+- 58 ignition-cmake                           
+- 57 ignition-math                            
+- 56 ignition-tools                           
+- 55 sdformat-9                               
+- 54 ignition-msgs-5                          
+- 53 ignition-transport-8                     
+- 52 ignition-common                          
+- 51 ignition-fuel_tools-4                    
+- 50 gazebo                                   
+- 49 ros-noetic-gazebo-dev                    
+- 48 ros-noetic-gazebo-ros                    
+- 47 ros-noetic-camera-calibration-parsers    
+- 46 ros-noetic-camera-info-manager           
+- 45 ros-noetic-polled-camera                 
+- 44 ros-noetic-gazebo-plugins                
+- 43 ros-noetic-gazebo-ros-pkgs               
+- 42 ros-noetic-stage                         
+- 41 ros-noetic-stage-ros                     
+- 40 ros-noetic-simulators                    
+- 39 ros-noetic-image-geometry                
+- 38 ros-noetic-vision-opencv                 
+- 37 ros-noetic-pcl-msgs                      
+- 36 ros-noetic-pcl-conversions               
+- 35 ros-noetic-tf2-eigen                     
+- 34 ros-noetic-pcl-ros                       
+- 33 ros-noetic-perception-pcl                
+- 32 ros-noetic-laser-assembler               
+- 31 ros-noetic-laser-filters                 
+- 30 ros-noetic-laser-pipeline                
+- 29 ros-noetic-compressed-depth-image-transport 
+- 28 ros-noetic-compressed-image-transport    
+- 27 ros-noetic-theora-image-transport        
+- 26 ros-noetic-image-transport-plugins       
+- 25 ros-noetic-image-rotate                  
+- 24 ros-noetic-image-proc                    
+- 23 ros-noetic-stereo-image-proc             
+- 22 ros-noetic-depth-image-proc              
+- 21 ros-noetic-image-view                    
+- 20 ros-noetic-image-publisher               
+- 19 ros-noetic-camera-calibration            
+- 18 ros-noetic-image-pipeline                
+- 17 ros-noetic-image-common                  
+- 16 ros-noetic-perception                    
+- 15 ros-noetic-hardware-interface            
+- 14 ros-noetic-controller-interface          
+- 13 ros-noetic-realtime-tools                
+- 12 ros-noetic-forward-command-controller    
+- 11 ros-noetic-position-controllers          
+- 10 ros-noetic-controller-manager-msgs       
+- 09 ros-noetic-controller-manager            
+- 08 ros-noetic-joint-state-controller        
+- 07 ros-noetic-diff-drive-controller         
+- 06 ros-noetic-joint-limits-interface        
+- 05 ros-noetic-control-toolbox               
+- 04 ros-noetic-transmission-interface        
+- 03 ros-noetic-gazebo-ros-control            
+- 02 ros-noetic-urdf-sim-tutorial             
+- 01 ros-noetic-desktop-full                  
