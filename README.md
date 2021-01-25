@@ -135,7 +135,7 @@ yay -S ros-noetic-desktop-full  --builddir /p
 - 53 ignition-transport-8                     
 - 52 ignition-common                          
 - 51 ignition-fuel_tools-4                    
-- 50 (gazebo)[https://github.com/osrf/gazebo] 
+- 50 [gazebo](https://github.com/osrf/gazebo) 
 - 49 ros-noetic-gazebo-dev                    
 - 48 ros-noetic-gazebo-ros                    
 - 47 ros-noetic-camera-calibration-parsers    
